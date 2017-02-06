@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C358AB0F140EE07C005CC08B /* iTunesGetCurrentTitle.scpt in Copy Files */ = {isa = PBXBuildFile; fileRef = C358AB0D140EE069005CC08B /* iTunesGetCurrentTitle.scpt */; };
+		C367DEF41423F24C004F5A97 /* TSiTunesRatingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C367DEF31423F24C004F5A97 /* TSiTunesRatingWindow.m */; };
+		C3837A441425551100CE6512 /* ratingStar_rate_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = C3837A431425551100CE6512 /* ratingStar_rate_empty.png */; };
+		C3837A481425EA7400CE6512 /* iTunesSetRatingToCurrentTitle.scpt in Resources */ = {isa = PBXBuildFile; fileRef = C3837A471425EA7400CE6512 /* iTunesSetRatingToCurrentTitle.scpt */; };
+		C3837A491425EA8900CE6512 /* iTunesSetRatingToCurrentTitle.scpt in Copy Files */ = {isa = PBXBuildFile; fileRef = C3837A471425EA7400CE6512 /* iTunesSetRatingToCurrentTitle.scpt */; };
+		C3837A4B1425EDBC00CE6512 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3837A4A1425EDBC00CE6512 /* Carbon.framework */; };
+		C3A6E22414117EAE00CC7730 /* RatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A6E22314117EAE00CC7730 /* RatingController.m */; };
+		C3A6E27514120C1B00CC7730 /* TSFiveStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A6E27414120C1B00CC7730 /* TSFiveStarRating.m */; };
+		C3B9E9291422727C00478922 /* ratingStar_no_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B9E9251422727C00478922 /* ratingStar_no_rate.png */; };
+		C3B9E92A1422727C00478922 /* ratingStar_rate_computed.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B9E9261422727C00478922 /* ratingStar_rate_computed.png */; };
+		C3B9E92B1422727C00478922 /* ratingStar_rate_user.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B9E9271422727C00478922 /* ratingStar_rate_user.png */; };
+		C3B9E92C1422727C00478922 /* ratingStar_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B9E9281422727C00478922 /* ratingStar_rate.png */; };
+		C3C337EF140E9E3B00F48C55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C337EE140E9E3B00F48C55 /* Cocoa.framework */; };
+		C3C337F9140E9E3B00F48C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3C337F7140E9E3B00F48C55 /* InfoPlist.strings */; };
+		C3C337FC140E9E3B00F48C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C337FB140E9E3B00F48C55 /* main.m */; };
+		C3C337FF140E9E3B00F48C55 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C3C337FD140E9E3B00F48C55 /* Credits.rtf */; };
+		C3C33802140E9E3B00F48C55 /* iTunesRatingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C33801140E9E3B00F48C55 /* iTunesRatingAppDelegate.m */; };
+		C3C33805140E9E3B00F48C55 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C33803140E9E3B00F48C55 /* MainMenu.xib */; };
+		C3F4C4F3141FF50F00FD009A /* TSiTunesRatingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F4C4F2141FF50F00FD009A /* TSiTunesRatingUtils.m */; };
+		C3F4C4F3141FF50F00FD009C /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F4C4F3141FF50F00FD009B /* TestClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C358AB09140EB8DF005CC08B /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = Scripts;
+			dstSubfolderSpec = 7;
+			files = (
+				C3837A491425EA8900CE6512 /* iTunesSetRatingToCurrentTitle.scpt in Copy Files */,
+				C358AB0F140EE07C005CC08B /* iTunesGetCurrentTitle.scpt in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C358AB04140EB5CF005CC08B /* updateGeeklediTunesTitle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = updateGeeklediTunesTitle.scpt; sourceTree = "<group>"; };
+		C358AB0D140EE069005CC08B /* iTunesGetCurrentTitle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesGetCurrentTitle.scpt; sourceTree = "<group>"; };
+		C367DEF21423F24C004F5A97 /* TSiTunesRatingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSiTunesRatingWindow.h; sourceTree = "<group>"; };
+		C367DEF31423F24C004F5A97 /* TSiTunesRatingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSiTunesRatingWindow.m; sourceTree = "<group>"; };
+		C3837A431425551100CE6512 /* ratingStar_rate_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ratingStar_rate_empty.png; sourceTree = "<group>"; };
+		C3837A461425D6C400CE6512 /* TSFiveStarRatingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSFiveStarRatingDelegate.h; sourceTree = "<group>"; };
+		C3837A471425EA7400CE6512 /* iTunesSetRatingToCurrentTitle.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesSetRatingToCurrentTitle.scpt; sourceTree = "<group>"; };
+		C3837A4A1425EDBC00CE6512 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		C3A6E22214117EAE00CC7730 /* RatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingController.h; sourceTree = "<group>"; };
+		C3A6E22314117EAE00CC7730 /* RatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingController.m; sourceTree = "<group>"; };
+		C3A6E254141185D500CC7730 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C3A6E2561411869F00CC7730 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C3A6E2571411869F00CC7730 /* AppKitScripting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKitScripting.framework; path = System/Library/Frameworks/AppKitScripting.framework; sourceTree = SDKROOT; };
+		C3A6E2581411869F00CC7730 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = System/Library/Frameworks/AppleScriptKit.framework; sourceTree = SDKROOT; };
+		C3A6E2591411869F00CC7730 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		C3A6E25A1411869F00CC7730 /* AppleShareClientCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleShareClientCore.framework; path = System/Library/Frameworks/AppleShareClientCore.framework; sourceTree = SDKROOT; };
+		C3A6E25B1411869F00CC7730 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		C3A6E25C1411869F00CC7730 /* LatentSemanticMapping.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LatentSemanticMapping.framework; path = System/Library/Frameworks/LatentSemanticMapping.framework; sourceTree = SDKROOT; };
+		C3A6E27314120C1B00CC7730 /* TSFiveStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSFiveStarRating.h; sourceTree = "<group>"; };
+		C3A6E27414120C1B00CC7730 /* TSFiveStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSFiveStarRating.m; sourceTree = "<group>"; };
+		C3B9E9251422727C00478922 /* ratingStar_no_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ratingStar_no_rate.png; sourceTree = "<group>"; };
+		C3B9E9261422727C00478922 /* ratingStar_rate_computed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ratingStar_rate_computed.png; sourceTree = "<group>"; };
+		C3B9E9271422727C00478922 /* ratingStar_rate_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ratingStar_rate_user.png; sourceTree = "<group>"; };
+		C3B9E9281422727C00478922 /* ratingStar_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ratingStar_rate.png; sourceTree = "<group>"; };
+		C3C337EA140E9E3B00F48C55 /* iTunesRating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesRating.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C337EE140E9E3B00F48C55 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C3C337F1140E9E3B00F48C55 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C3C337F2140E9E3B00F48C55 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3C337F3140E9E3B00F48C55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3C337F6140E9E3B00F48C55 /* iTunesRating-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesRating-Info.plist"; sourceTree = "<group>"; };
+		C3C337F8140E9E3B00F48C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3C337FA140E9E3B00F48C55 /* iTunesRating-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesRating-Prefix.pch"; sourceTree = "<group>"; };
+		C3C337FB140E9E3B00F48C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3C337FE140E9E3B00F48C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C3C33800140E9E3B00F48C55 /* iTunesRatingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesRatingAppDelegate.h; sourceTree = "<group>"; };
+		C3C33801140E9E3B00F48C55 /* iTunesRatingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesRatingAppDelegate.m; sourceTree = "<group>"; };
+		C3C33804140E9E3B00F48C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C3F4C4F1141FF50F00FD009A /* TSiTunesRatingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSiTunesRatingUtils.h; sourceTree = "<group>"; };
+		C3F4C4F2141FF50F00FD009A /* TSiTunesRatingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSiTunesRatingUtils.m; sourceTree = "<group>"; };
+		C3F4C4F3141FF50F00FD009B /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		C3F4C4F3141FF50F00FD009D /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3C337E7140E9E3B00F48C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3837A4B1425EDBC00CE6512 /* Carbon.framework in Frameworks */,
+				C3C337EF140E9E3B00F48C55 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C358AB08140EB7FC005CC08B /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				C3837A471425EA7400CE6512 /* iTunesSetRatingToCurrentTitle.scpt */,
+				C358AB0D140EE069005CC08B /* iTunesGetCurrentTitle.scpt */,
+				C358AB04140EB5CF005CC08B /* updateGeeklediTunesTitle.scpt */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		C3A6E21714117B6400CC7730 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3837A431425551100CE6512 /* ratingStar_rate_empty.png */,
+				C3B9E9251422727C00478922 /* ratingStar_no_rate.png */,
+				C3B9E9261422727C00478922 /* ratingStar_rate_computed.png */,
+				C3B9E9271422727C00478922 /* ratingStar_rate_user.png */,
+				C3B9E9281422727C00478922 /* ratingStar_rate.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C3A6E26F14120BA400CC7730 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6E27314120C1B00CC7730 /* TSFiveStarRating.h */,
+				C3A6E27414120C1B00CC7730 /* TSFiveStarRating.m */,
+				C367DEF21423F24C004F5A97 /* TSiTunesRatingWindow.h */,
+				C367DEF31423F24C004F5A97 /* TSiTunesRatingWindow.m */,
+				C3837A461425D6C400CE6512 /* TSFiveStarRatingDelegate.h */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C3C337DF140E9E3B00F48C55 = {
+			isa = PBXGroup;
+			children = (
+				C3837A4A1425EDBC00CE6512 /* Carbon.framework */,
+				C3A6E2561411869F00CC7730 /* AppKit.framework */,
+				C3A6E2571411869F00CC7730 /* AppKitScripting.framework */,
+				C3A6E2581411869F00CC7730 /* AppleScriptKit.framework */,
+				C3A6E2591411869F00CC7730 /* AppleScriptObjC.framework */,
+				C3A6E25A1411869F00CC7730 /* AppleShareClientCore.framework */,
+				C3A6E25B1411869F00CC7730 /* ApplicationServices.framework */,
+				C3A6E25C1411869F00CC7730 /* LatentSemanticMapping.framework */,
+				C3A6E254141185D500CC7730 /* AppKit.framework */,
+				C3C337F4140E9E3B00F48C55 /* iTunesRating */,
+				C3C337ED140E9E3B00F48C55 /* Frameworks */,
+				C3C337EB140E9E3B00F48C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3C337EB140E9E3B00F48C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3C337EA140E9E3B00F48C55 /* iTunesRating.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3C337ED140E9E3B00F48C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C337EE140E9E3B00F48C55 /* Cocoa.framework */,
+				C3C337F0140E9E3B00F48C55 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3C337F0140E9E3B00F48C55 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C337F1140E9E3B00F48C55 /* AppKit.framework */,
+				C3C337F2140E9E3B00F48C55 /* CoreData.framework */,
+				C3C337F3140E9E3B00F48C55 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C3C337F4140E9E3B00F48C55 /* iTunesRating */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4C4F3141FF50F00FD009D /* TestClass.h */,
+				C3F4C4F3141FF50F00FD009B /* TestClass.m */,
+				C3F4C4EA141FF4E000FD009A /* Utils */,
+				C3A6E26F14120BA400CC7730 /* UI */,
+				C3C33800140E9E3B00F48C55 /* iTunesRatingAppDelegate.h */,
+				C3C33801140E9E3B00F48C55 /* iTunesRatingAppDelegate.m */,
+				C3C33803140E9E3B00F48C55 /* MainMenu.xib */,
+				C3C337F5140E9E3B00F48C55 /* Supporting Files */,
+				C3A6E22214117EAE00CC7730 /* RatingController.h */,
+				C3A6E22314117EAE00CC7730 /* RatingController.m */,
+			);
+			path = iTunesRating;
+			sourceTree = "<group>";
+		};
+		C3C337F5140E9E3B00F48C55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6E21714117B6400CC7730 /* Images */,
+				C358AB08140EB7FC005CC08B /* Scripts */,
+				C3C337F6140E9E3B00F48C55 /* iTunesRating-Info.plist */,
+				C3C337F7140E9E3B00F48C55 /* InfoPlist.strings */,
+				C3C337FA140E9E3B00F48C55 /* iTunesRating-Prefix.pch */,
+				C3C337FB140E9E3B00F48C55 /* main.m */,
+				C3C337FD140E9E3B00F48C55 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3F4C4EA141FF4E000FD009A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3F4C4F1141FF50F00FD009A /* TSiTunesRatingUtils.h */,
+				C3F4C4F2141FF50F00FD009A /* TSiTunesRatingUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3C337E9140E9E3B00F48C55 /* iTunesRating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C33808140E9E3B00F48C55 /* Build configuration list for PBXNativeTarget "iTunesRating" */;
+			buildPhases = (
+				C3C337E6140E9E3B00F48C55 /* Sources */,
+				C3C337E7140E9E3B00F48C55 /* Frameworks */,
+				C3C337E8140E9E3B00F48C55 /* Resources */,
+				C358AB09140EB8DF005CC08B /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesRating;
+			productName = iTunesRating;
+			productReference = C3C337EA140E9E3B00F48C55 /* iTunesRating.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3C337E1140E9E3B00F48C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C3C337E4140E9E3B00F48C55 /* Build configuration list for PBXProject "iTunesRating" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3C337DF140E9E3B00F48C55;
+			productRefGroup = C3C337EB140E9E3B00F48C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3C337E9140E9E3B00F48C55 /* iTunesRating */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3C337E8140E9E3B00F48C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C337F9140E9E3B00F48C55 /* InfoPlist.strings in Resources */,
+				C3C337FF140E9E3B00F48C55 /* Credits.rtf in Resources */,
+				C3C33805140E9E3B00F48C55 /* MainMenu.xib in Resources */,
+				C3B9E9291422727C00478922 /* ratingStar_no_rate.png in Resources */,
+				C3B9E92A1422727C00478922 /* ratingStar_rate_computed.png in Resources */,
+				C3B9E92B1422727C00478922 /* ratingStar_rate_user.png in Resources */,
+				C3B9E92C1422727C00478922 /* ratingStar_rate.png in Resources */,
+				C3837A441425551100CE6512 /* ratingStar_rate_empty.png in Resources */,
+				C3837A481425EA7400CE6512 /* iTunesSetRatingToCurrentTitle.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3C337E6140E9E3B00F48C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C337FC140E9E3B00F48C55 /* main.m in Sources */,
+				C3C33802140E9E3B00F48C55 /* iTunesRatingAppDelegate.m in Sources */,
+				C3A6E22414117EAE00CC7730 /* RatingController.m in Sources */,
+				C3A6E27514120C1B00CC7730 /* TSFiveStarRating.m in Sources */,
+				C3F4C4F3141FF50F00FD009A /* TSiTunesRatingUtils.m in Sources */,
+				C367DEF41423F24C004F5A97 /* TSiTunesRatingWindow.m in Sources */,
+				C3F4C4F3141FF50F00FD009C /* TestClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3C337F7140E9E3B00F48C55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C337F8140E9E3B00F48C55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3C337FD140E9E3B00F48C55 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C337FE140E9E3B00F48C55 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C3C33803140E9E3B00F48C55 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C33804140E9E3B00F48C55 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3C33806140E9E3B00F48C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C3C33807140E9E3B00F48C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C3C33809140E9E3B00F48C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesRating/iTunesRating-Prefix.pch";
+				INFOPLIST_FILE = "iTunesRating/iTunesRating-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3C3380A140E9E3B00F48C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesRating/iTunesRating-Prefix.pch";
+				INFOPLIST_FILE = "iTunesRating/iTunesRating-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3C337E4140E9E3B00F48C55 /* Build configuration list for PBXProject "iTunesRating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C33806140E9E3B00F48C55 /* Debug */,
+				C3C33807140E9E3B00F48C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3C33808140E9E3B00F48C55 /* Build configuration list for PBXNativeTarget "iTunesRating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C33809140E9E3B00F48C55 /* Debug */,
+				C3C3380A140E9E3B00F48C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3C337E1140E9E3B00F48C55 /* Project object */;
+}
